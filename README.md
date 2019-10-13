@@ -1,8 +1,6 @@
 # Programs : 
 ############
 
-CNN_train_v2.2.2.py
-
 CNN_test_v2.1.0(wihout_augm).py
 CNN_test_v2.1.0.py
 
