@@ -1,0 +1,19 @@
+auto_save(mapping groups, size_of_images_in_pixel, transfer_learning, augmentation) 
+
+# Mapping groups 
+all => not mapping, we use all classes
+x+y => mapping with tow groups : X and Y
+  
+
+# size_of_images_in_pixel
+64 or 128 
+
+# transfer_learning
+off or on
+
+# augmentation
+off => no augmantation
+base => horizontal_flip=True, vertical_flip=True
+full => horizontal_flip=True, vertical_flip=True, rotation_range=90, width_shift_range=0.15, height_shift_range=0.15
+full+ => horizontal_flip=True, vertical_flip=True, rotation_range=90, width_shift_range=0.25, height_shift_range=0.25
+full++ => horizontal_flip=True, vertical_flip=True, rotation_range=90, width_shift_range=0.50, height_shift_range=0.50
