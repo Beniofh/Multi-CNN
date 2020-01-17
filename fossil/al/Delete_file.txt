@@ -1,0 +1,1 @@
+In Git, we cannot commit empty folders, because Git does not actually save folders, only files. We will have to create some placeholder file inside those directories if you actually want them to be "empty". You can delete this file after the downloading. 
